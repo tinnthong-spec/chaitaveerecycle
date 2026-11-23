@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ชัยทวีรีไซเคิล — รับซื้อของเก่า ขยะรีไซเคิลทุกชนิด บุรีรัมย์</title>
+<meta name="description" content="ชัยทวีรีไซเคิล (ชัยทวีพืชผล เดิม) รับซื้อของเก่า ขยะรีไซเคิลทุกชนิด กระดาษ เหล็ก ทองแดง พลาสติก ขวดแก้ว ลังเบียร์ บอร์ดอิเล็กทรอนิกส์ อ.เมือง จ.บุรีรัมย์ ชั่งเที่ยงตรง จ่ายเงินทันที ไม่ต้องรอคิว">
+<meta property="og:title" content="ชัยทวีรีไซเคิล — รับซื้อของเก่า ขยะรีไซเคิลทุกชนิด บุรีรัมย์">
+<meta property="og:description" content="ขยะของคุณมีค่า เมื่อนำมาที่ชัยทวีรีไซเคิล · ชั่งเที่ยงตรง จ่ายเงินทันที ไม่ต้องรอคิว">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --green:#038C46; --green-dark:#02632f; --leaf:#7DB12A;
+  --ink:#15241B; --ink2:#44513F; --muted:#5C6B5E;
+  --bg:#f4f6f4; --card:#ffffff; --line:#dde3de;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Sarabun',sans-serif;font-size:17px;line-height:1.65}
+h1,h2,h3,.hf{font-family:'Kanit','Sarabun',sans-serif}
+a{color:var(--green-dark)}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.btn{font-family:'Kanit',sans-serif;font-weight:500;font-size:17px;text-decoration:none;border-radius:10px;padding:13px 22px;display:inline-flex;align-items:center;gap:10px}
+.btn-green{background:var(--green-dark);color:#fff}
+.btn-white{background:#fff;color:var(--ink);border:1px solid #cfcabb}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px}
+section{padding:64px 0}
+h2{margin:0 0 10px;font-size:32px;font-weight:600}
+.sub{margin:0 0 32px;color:var(--ink2);max-width:640px}
+/* topbar */
+.topbar{background:var(--ink);color:#e9efe7;font-size:14.5px}
+.topbar .wrap{display:flex;flex-wrap:wrap;gap:4px 24px;justify-content:space-between;padding-top:8px;padding-bottom:8px}
+/* header */
+header{background:#fff;border-bottom:4px solid var(--green);position:sticky;top:0;z-index:50}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;padding:10px 20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand img{height:52px;width:auto}
+.brand .t1{font-family:'Kanit',sans-serif;font-weight:600;font-size:20px;line-height:1.15}
+.brand .t2{font-size:13px;color:var(--muted)}
+nav.menu{display:flex;flex-wrap:wrap;align-items:center;gap:2px 20px;margin-left:auto;font-family:'Kanit',sans-serif;font-size:16px}
+nav.menu a{color:var(--ink);text-decoration:none}
+nav.menu a:hover{color:var(--green-dark)}
+/* hero */
+.hero{background:linear-gradient(180deg,#ffffff 0%,var(--bg) 100%);padding:56px 0}
+.hero .wrap{display:flex;flex-wrap:wrap;gap:40px;align-items:center}
+.hero-text{flex:999 1 460px;min-width:0}
+.hero-badge{display:inline-block;background:#eaf3ec;color:var(--green-dark);font-family:'Kanit',sans-serif;font-size:14.5px;font-weight:500;padding:5px 14px;border-radius:999px;margin-bottom:16px}
+.hero h1{margin:0 0 14px;font-size:clamp(30px,5vw,44px);line-height:1.25;font-weight:700}
+.hero h1 span{color:var(--green)}
+.hero p{margin:0 0 26px;font-size:18.5px;color:var(--ink2);max-width:560px}
+.hero-img{flex:1 1 360px;min-width:0}
+.hero-img img{border-radius:16px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(21,36,27,.12)}
+.hero-img figcaption{font-size:14px;color:var(--muted);margin-top:8px;text-align:center}
+/* stats */
+.stats{background:var(--green-dark);color:#fff;padding:24px 0}
+.stats .wrap{display:flex;flex-wrap:wrap;gap:18px 48px;justify-content:space-between}
+.chip{display:flex;align-items:center;gap:10px;font-weight:600;font-size:16px}
+.chip svg{flex-shrink:0}
+/* news */
+.news-card{border-left:5px solid var(--leaf);padding:18px 22px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline}
+.news-date{font-family:'Kanit',sans-serif;font-weight:500;font-size:14.5px;color:#fff;background:var(--green);border-radius:999px;padding:3px 12px;white-space:nowrap}
+.news-list{display:flex;flex-direction:column;gap:14px}
+.news-title{font-family:'Kanit',sans-serif;font-weight:600;font-size:18px}
+.news-body{flex-basis:100%;color:var(--ink2);font-size:15.5px;margin:0}
+/* products */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.pcard{overflow:hidden;display:flex;flex-direction:column}
+.pcard img{height:170px;object-fit:cover;width:100%}
+.pcard .pt{padding:14px 18px}
+.pcard .pt .hf{font-weight:500;font-size:18px}
+.pcard .pt div.d{font-size:14.5px;color:var(--muted)}
+.more-items{margin-top:26px;display:flex;flex-wrap:wrap;gap:12px}
+.more-items span{background:#eaf3ec;border:1px solid #c9dece;color:var(--green-dark);border-radius:999px;padding:8px 18px;font-family:'Kanit',sans-serif;font-size:15.5px;font-weight:500}
+.notice{margin-top:26px;display:flex;flex-wrap:wrap;gap:16px}
+.notice div{flex:1 1 320px;border-radius:12px;padding:14px 18px;font-weight:500}
+.notice .warn{background:#fdeeec;border:1px solid #f2c9c2;color:#8a2d1e}
+.notice .ok{background:#eaf3ec;border:1px solid #c9dece;color:var(--green-dark)}
+/* why */
+.why{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.why .grid4{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.wcard{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:22px}
+.icon-box{width:46px;height:46px;border-radius:10px;background:#eaf3ec;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.wcard .hf{font-weight:600;font-size:19px;margin-bottom:6px}
+.wcard p{margin:0;font-size:15.5px;color:var(--ink2)}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+.scard{padding:22px;display:flex;gap:16px}
+.snum{font-family:'Kanit',sans-serif;font-weight:600;color:#fff;background:var(--green);width:34px;height:34px;border-radius:999px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.scard .hf{font-weight:600;font-size:19px;margin-bottom:4px}
+.scard p{margin:0;font-size:15.5px;color:var(--ink2)}
+/* bulk band */
+.band{background:var(--ink);color:#fff;padding:0}
+.band .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:28px 40px;padding-top:44px;padding-bottom:44px}
+.band h2{font-size:26px}
+.band p{color:#c9d8cc;margin:0}
+.band-text{flex:999 1 400px;min-width:0}
+/* contact */
+.contact .cols{display:flex;flex-wrap:wrap;gap:24px}
+.ccard{flex:1 1 320px;padding:26px}
+.ccard .lbl{font-family:'Kanit',sans-serif;font-weight:600;font-size:16.5px;margin-bottom:2px}
+.ccard .val{color:var(--ink2);margin-bottom:16px}
+.map-ph{flex:1.4 1 380px;min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:#eaf3ec;border:1px dashed #9fbfa8;border-radius:14px;color:var(--green-dark);text-align:center;padding:20px}
+/* footer */
+footer{background:var(--ink);color:#c9d8cc;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;align-items:center;padding-top:30px;padding-bottom:30px}
+footer img{height:72px;width:auto}
+footer .fcol{display:flex;align-items:center;gap:16px}
+footer a{color:#c9d8cc;text-decoration:none}
+footer a:hover{color:#fff}
+footer .links{display:flex;flex-wrap:wrap;gap:4px 22px}
+@media (max-width:640px){
+  section{padding:44px 0}
+  .topbar .wrap{justify-content:center;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>รับซื้อของเก่า–ขยะรีไซเคิลทุกชนิด อ.เมือง จ.บุรีรัมย์</span>
+    <span>เปิดทุกวัน 08:00–17:00 น. ไม่ปิดพักเที่ยง</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img src="images/logo-dark.png" alt="โลโก้ชัยทวีรีไซเคิล">
+      <span>
+        <span class="t1">ชัยทวีรีไซเคิล</span><br>
+        <span class="t2">CHAITAVEE RECYCLE · บุรีรัมย์</span>
+      </span>
+    </a>
+    <nav class="menu">
+      <a href="#news">ประกาศ</a>
+      <a href="#products">สินค้าที่รับซื้อ</a>
+      <a href="#why">จุดเด่น</a>
+      <a href="#steps">ขั้นตอนการขาย</a>
+      <a href="#contact">ติดต่อ / แผนที่</a>
+      <a class="btn btn-green" href="tel:0968813126">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        096-881-3126
+      </a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-text">
+      <div class="hero-badge">ดำเนินกิจการต่อเนื่องตั้งแต่รุ่นคุณพ่อ · ชัยทวีพืชผล (เดิม)</div>
+      <h1>ขยะของคุณมีค่า<br>เมื่อนำมาที่ <span>ชัยทวีรีไซเคิล</span></h1>
+      <p>รับซื้อของเก่า ขยะรีไซเคิลทุกชนิด ใน อ.เมืองบุรีรัมย์ ชั่งเที่ยงตรง จ่ายเงินทันที บริการไว ไม่ต้องรอคิว เปิดให้ขายได้ตลอดแม้ช่วงพักเที่ยง</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px">
+        <a class="btn btn-green" href="tel:0968813126" style="font-size:18px">โทรเช็คราคาวันนี้</a>
+        <a class="btn btn-white" href="#products">ดูสินค้าที่รับซื้อ</a>
+      </div>
+    </div>
+    <figure class="hero-img" style="margin:0">
+      <img src="images/hero.jpg" alt="หน้าร้านชัยทวีรีไซเคิล" fetchpriority="high">
+    </figure>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="chip">
+      <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9FD4AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+      เปิดทุกวัน 08:00–17:00 น. ไม่ปิดพักเที่ยง
+    </div>
+    <div class="chip">
+      <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9FD4AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>
+      จ่ายเงินทันที ครบถ้วนทุกบิล
+    </div>
+    <div class="chip">
+      <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9FD4AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"></path><path d="M5 7l2 2"></path><path d="M19 7l-2 2"></path><path d="M3 21h18"></path><path d="M7 21a5 5 0 0 1 10 0"></path></svg>
+      เครื่องชั่งมาตรฐาน เที่ยงตรงทุกกิโล
+    </div>
+  </div>
+</div>
+
+<section id="news">
+  <div class="wrap">
+    <h2>ประกาศจากร้าน</h2>
+    <p class="sub">ข่าวสารล่าสุดสำหรับลูกค้าชัยทวีรีไซเคิล</p>
+    <div class="news-list">
+      <div class="card news-card">
+        <span class="news-date">22 พ.ย. 2569</span>
+        <span class="news-title">เปิดรับซื้อบอร์ดอิเล็กทรอนิกส์แบบแยกเกรดแล้ว</span>
+        <p class="news-body">รับซื้อบอร์ดทีวี บอร์ดคอมพิวเตอร์ โน้ตบุ๊ค แรม ซีพียู และบอร์ดอิเล็กทรอนิกส์อื่น ๆ ให้ราคาตามเกรดจริงของสินค้า (ยกเว้นบอร์ดเครื่องซักผ้า ไม่รับซื้อ)</p>
+      </div>
+      <div class="card news-card">
+        <span class="news-date">12 พ.ย. 2569</span>
+        <span class="news-title">งดรับซื้อแบตเตอรี่ทุกชนิดชั่วคราว</span>
+        <p class="news-body">ขออภัยในความไม่สะดวก หากกลับมาเปิดรับซื้อจะแจ้งให้ทราบทางหน้านี้และเพจ Facebook ของร้าน</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" style="padding-top:0">
+  <div class="wrap">
+    <h2>สินค้าที่เรารับซื้อ</h2>
+    <p class="sub">รับซื้อทั้งรายย่อย ซาเล้ง ร้านค้า และโรงงาน — ของชิ้นเล็กชิ้นใหญ่ ขายได้หมด ราคาปรับตามตลาดทุกวัน</p>
+    <div class="grid">
+      <div class="card pcard"><img src="images/paper.jpg" alt="กองกระดาษลังในโกดังชัยทวี" loading="lazy"><div class="pt"><div class="hf">กระดาษ / กระดาษลัง</div><div class="d">ลังน้ำตาล กระดาษขาว–ดำ หนังสือ แกนกระดาษ</div></div></div>
+      <div class="card pcard"><img src="images/crates.jpg" alt="ลังเบียร์ในโกดังชัยทวี" loading="lazy"><div class="pt"><div class="hf">ลังเบียร์ – ลังเหล้า</div><div class="d">ขวดพร้อมลัง รับทั้งลังสวยและลังมีรอย</div></div></div>
+      <div class="card pcard"><img src="images/bottles.jpg" alt="กองขวดแก้ว" loading="lazy"><div class="pt"><div class="hf">ขวดแก้ว</div><div class="d">ขวดเบียร์ ขวดเหล้า ขวดแก้วทุกสี</div></div></div>
+      <div class="card pcard"><img src="images/pvc.jpg" alt="กองท่อพีวีซี" loading="lazy"><div class="pt"><div class="hf">พลาสติก / พีวีซี</div><div class="d">ขวดใส ขวดขุ่น พลาสติกรวม ท่อ ตะกร้า เก้าอี้</div></div></div>
+      <div class="card pcard"><img src="images/steel.jpg" alt="กองเศษเหล็ก" loading="lazy"><div class="pt"><div class="hf">เหล็ก</div><div class="d">เหล็กหนา เหล็กบาง โครงเหล็กทุกแบบ</div></div></div>
+      <div class="card pcard"><img src="images/zinc.jpg" alt="กองสังกะสีและกระป๋อง" loading="lazy"><div class="pt"><div class="hf">สังกะสี / กระป๋อง / อลูมิเนียม</div><div class="d">กระป๋องเครื่องดื่ม อลูมิเนียมทุกชนิด</div></div></div>
+      <div class="card pcard"><img src="images/copper.jpg" alt="เส้นทองแดง" loading="lazy"><div class="pt"><div class="hf">ทองแดง / ทองเหลือง</div><div class="d">สายไฟ มอเตอร์ หม้อน้ำ โลหะมีค่าทุกชนิด</div></div></div>
+      <div class="card pcard"><div style="height:170px;background:#eaf3ec;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#038C46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"></path></svg></div><div class="pt"><div class="hf">บอร์ดอิเล็กทรอนิกส์ / เครื่องใช้ไฟฟ้า</div><div class="d">ทีวี คอม โน้ตบุ๊ค บอร์ดทุกเกรด แยกเกรดให้ราคาตามจริง</div></div></div>
+    </div>
+    <div class="more-items">
+      <span>สแตนเลส</span><span>แอร์ / คอมเพรสเซอร์</span><span>มอเตอร์ไฟฟ้า</span><span>น้ำมันพืชใช้แล้ว</span><span>และของเก่าอื่น ๆ อีกมาก</span>
+    </div>
+    <div class="notice">
+      <div class="warn">ขณะนี้งดรับซื้อแบตเตอรี่ทุกชนิดชั่วคราว</div>
+      <div class="ok">ไม่แน่ใจว่าของที่มีขายได้ไหม — ถ่ายรูปแล้วโทรถามได้เลย</div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="why">
+  <div class="wrap">
+    <h2>ทำไมต้องขายที่ชัยทวี</h2>
+    <p class="sub">เราตั้งใจให้การขายของเก่าเป็นเรื่องง่าย รวดเร็ว และยุติธรรมสำหรับทุกคน</p>
+    <div class="grid4">
+      <div class="wcard">
+        <div class="icon-box"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#038C46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"></path></svg></div>
+        <div class="hf">บริการไว ไม่ต้องรอคิว</div>
+        <p>ทีมงานพร้อมรับของต่อเนื่องทั้งวัน พนักงานสลับกันพัก ร้านไม่ปิดพักเที่ยง</p>
+      </div>
+      <div class="wcard">
+        <div class="icon-box"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#038C46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M3 10h18"></path><path d="M8 22h8"></path><path d="M12 18v4"></path></svg></div>
+        <div class="hf">รับเงินเองที่ตู้จ่ายเงินอัตโนมัติ</div>
+        <p>สแกน QR บนบิลที่ตู้จ่ายเงินของร้าน รับเงินสดได้ทันที หรือเลือกรับเงินโอนเข้าบัญชี</p>
+      </div>
+      <div class="wcard">
+        <div class="icon-box"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#038C46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"></path><path d="M5 7l2 2"></path><path d="M19 7l-2 2"></path><path d="M3 21h18"></path><path d="M7 21a5 5 0 0 1 10 0"></path></svg></div>
+        <div class="hf">ชั่งเที่ยงตรง เห็นตัวเลขชัดเจน</div>
+        <p>เครื่องชั่งมาตรฐาน พร้อมบิลแจกแจงรายการ น้ำหนัก และราคาให้ตรวจสอบได้ทุกครั้ง</p>
+      </div>
+      <div class="wcard">
+        <div class="icon-box"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#038C46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg></div>
+        <div class="hf">ราคาอิงตลาด ปรับทุกวัน</div>
+        <p>ติดตามราคาตลาดรีไซเคิลทุกวัน ให้ราคาตรงไปตรงมาทั้งรายย่อยและรายใหญ่</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="wrap">
+    <h2>ขายของกับเรา ง่ายแค่ 3 ขั้นตอน</h2>
+    <p class="sub">ขับรถเข้ามาได้เลย มีลานกว้างสำหรับรถกระบะและรถบรรทุก ทีมงานช่วยยกช่วยคัดให้ถึงที่</p>
+    <div class="steps">
+      <div class="card scard"><div class="snum">1</div><div><div class="hf">นำของเข้ามาชั่ง</div><p>ทีมงานช่วยแยกประเภทและชั่งน้ำหนักต่อหน้า เห็นตัวเลขบนเครื่องชั่งชัดเจน</p></div></div>
+      <div class="card scard"><div class="snum">2</div><div><div class="hf">รับบิลสรุปรายการ</div><p>บิลแจกแจงทุกรายการ น้ำหนัก ราคา และยอดรวม พร้อม QR Code สำหรับรับเงิน</p></div></div>
+      <div class="card scard"><div class="snum">3</div><div><div class="hf">สแกนรับเงินสดทันที</div><p>สแกน QR ที่ตู้จ่ายเงินอัตโนมัติ รับเงินสดได้เลย หรือเลือกรับเงินโอนเข้าบัญชี</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="band">
+  <div class="wrap">
+    <div class="band-text">
+      <h2 class="hf" style="margin:0 0 8px">มีของจำนวนมาก? ร้านค้า โรงงาน หน่วยงาน</h2>
+      <p>รับซื้อเหมาล็อตใหญ่ กระดาษลัง พลาสติก เหล็ก และวัสดุรีไซเคิลจากกิจการของคุณ โทรคุยราคากับเราได้โดยตรง</p>
+    </div>
+    <a class="btn" href="tel:0968813126" style="background:#fff;color:var(--ink);font-size:18px">โทร 096-881-3126</a>
+    <img src="images/bales.jpg" alt="กระดาษอัดก้อนพร้อมส่งโรงงาน" loading="lazy" style="flex:1 1 260px;max-width:340px;border-radius:12px;height:200px;object-fit:cover">
+  </div>
+</div>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>ติดต่อ / เดินทางมาร้าน</h2>
+    <p class="sub">ร้านอยู่ริมถนนบุรีรัมย์–นางรอง ตรงข้ามบิ๊กซี บุรีรัมย์ เข้า–ออกสะดวก มีที่จอดรถกว้างขวาง</p>
+    <div class="cols">
+      <div class="card ccard">
+        <div class="lbl">ที่อยู่</div>
+        <div class="val">161/1 หมู่ 10 ถนนบุรีรัมย์–นางรอง<br>ต.อิสาณ อ.เมืองบุรีรัมย์ จ.บุรีรัมย์ 31000</div>
+        <div class="lbl">โทรศัพท์</div>
+        <div class="val"><a href="tel:0968813126" style="font-weight:600">096-881-3126</a> · <a href="tel:044690286" style="font-weight:600">044-690-286</a></div>
+        <div class="lbl">Facebook</div>
+        <div class="val"><a href="https://www.facebook.com/chaitaveerecycle" style="font-weight:600">facebook.com/chaitaveerecycle</a></div>
+        <div class="lbl">เวลาทำการ</div>
+        <div class="val">เปิดทุกวัน 08:00–17:00 น. — ไม่ปิดพักเที่ยง</div>
+        <a class="btn btn-green" href="https://maps.app.goo.gl/r8ZdsFcv9zru6tBH9">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          เปิดเส้นทางใน Google Maps
+        </a>
+      </div>
+      <div class="map-ph">
+        <svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <div class="hf" style="font-weight:500;font-size:17px">แผนที่ร้านชัยทวีรีไซเคิล</div>
+        <div style="font-size:14.5px;color:var(--ink2)">กดปุ่ม "เปิดเส้นทางใน Google Maps" เพื่อนำทางมาร้านได้เลย</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fcol">
+      <img src="images/circle-white.png" alt="ตราบริษัท ชัยทวีรีไซเคิล จำกัด">
+      <div>
+        <div class="hf" style="color:#fff;font-weight:600;font-size:17px">บริษัท ชัยทวีรีไซเคิล จำกัด</div>
+        <div>ร้านชัยทวีพืชผล (เดิม) · รับซื้อของเก่าและขยะรีไซเคิล จ.บุรีรัมย์</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="#news">ประกาศ</a>
+      <a href="#products">สินค้าที่รับซื้อ</a>
+      <a href="#contact">ติดต่อเรา</a>
+      <a href="https://www.facebook.com/chaitaveerecycle">Facebook</a>
+      <a href="tel:0968813126">096-881-3126</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
